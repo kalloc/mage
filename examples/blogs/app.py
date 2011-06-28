@@ -7,7 +7,7 @@ from memcache import Client
 from insanities.ext.auth import CookieAuth
 from insanities.templates import jinja2, Template
 
-import cfg
+from web import cfg
 import models
 import handlers as h
 

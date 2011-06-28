@@ -6,7 +6,7 @@ import sys
 from mage import manage, sqla, fcgi
 from mage.app import application
 
-import cfg
+from web import cfg
 import models
 from app import app
 from initial import initial
